@@ -1,21 +1,20 @@
 * {
     box-sizing: border-box;
+    background-color: #e4e4e4;
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
+    font-family: "Open Sans", sans-serif; 
+    font-size: 22px;
+    color: #3e3e3e;
     text-align: center;
     line-height: 1.5;
   }
-  main {
-      background-color: #cecece;
-  }
 
-  section{
-      background-color: #bbbbbb;
+
+
+  h2 {
+    text-decoration: underline;
   }
   
   nav,
@@ -30,10 +29,66 @@
     left: 0;
     right: 0;
     z-index: 10;
+    border-bottom: 1px solid #2b2b2b;
   }
-  
-  
-  
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #2b2b2b;
+  }
+    
   header {
     padding: 2%;
+    border: 1.5px solid #2b2b2b;
+    border-radius: 8px;
+    margin-top: 10%;
+    position: relative;
+  }
+
+  .about, .project {
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 24px;
+  }
+
+  .project {
+    border: 1px solid #2b2b2b;
+    border-radius: 8px;
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    header {
+      font-size: 18px;
+      margin-top: 15%;
+    }
+
+
+    body {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    nav, footer {
+      font-size: 22px;
+    }
+
+  }
+
+  @media only screen and (min-width: 450px) and (max-width: 999px) {
+
+    header {
+      margin-top: 10%;
+    }
+
+    nav, footer {
+      font-size: 20px;
+    }
+
   }
