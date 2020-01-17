@@ -20,6 +20,19 @@
     margin: 0 auto;
   }
 
+  .feedme-pic {
+    width: 50%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+
+  .code-type-full {
+    width: 7%;
+    background-color: white;
+  }
+
   .bitmoji {
     background-color: white;
     float: left;
